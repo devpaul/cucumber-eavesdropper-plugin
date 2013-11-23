@@ -1,0 +1,26 @@
+{
+  "name": "cucumber-eavesdropper-plugin",
+  "version": "0.0.1",
+  "description": "A cucumber listener that eavesdrops on the event stack",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "homepage" : "https://github.com/devpaul/cucumber-wd-plugin",
+  "repository": { "type": "https"
+                , "url": "https://github.com/devpaul/cucumber-wd-plugin.git"
+                },
+  "bugs" : { "url": "https://github.com/devpaul/cucumber-wd-plugin/issues" },
+  "author": "Paul Shannon",
+  "license": "MIT",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "cucumber": "~0.3.0",
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt": "~0.4.1"
+  },
+    "peerDependencies": {
+    "cucumber": ">= 0.3.0"
+  }
+}
